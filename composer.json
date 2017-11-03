@@ -1,0 +1,13 @@
+{
+    "name": "theone-daxia/daxia-framework-router",
+    "description": "daxia 框架的路由部分",
+    "type": "library",
+    "authors": [
+        {
+            "name": "xiaoyu",
+            "email": "xiaoyu.han@mfashion.com.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
