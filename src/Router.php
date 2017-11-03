@@ -45,7 +45,7 @@ class Router
 
         if (in_array($uri, self::$routes)) {
 
-            $route_pos = array_keys(self::$route, $uri);
+            $route_pos = array_keys(self::$routes, $uri);
 
             foreach ($route_pos as $key => $pos) {
 
@@ -77,7 +77,7 @@ class Router
             $parts = explode('@', self::$callbacks[$pos]);
             $class = new $parts[0];
             $function = $parts[1];
-            $class->{$part[1]}();
+            $class->{$parts[1]}();
         } else {
             call_user_func(self::$callbacks[$pos]);
         }
