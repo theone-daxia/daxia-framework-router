@@ -1,6 +1,6 @@
 <?php
 
-namespace Daxia\Router;
+namespace Router;
 
 /**
  * @method static get(string $route, Callable $callback)
